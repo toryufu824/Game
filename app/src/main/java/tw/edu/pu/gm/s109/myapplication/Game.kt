@@ -8,12 +8,16 @@ import android.view.GestureDetector
 import android.view.SurfaceHolder
 import android.view.SurfaceView
 
+
+
 class Game(context: Context?, attrs: AttributeSet?) : SurfaceView(context, attrs),
     SurfaceHolder.Callback{
 
     var surfaceHolder: SurfaceHolder
     var BG: Bitmap
     var BGmoveX:Int = 0
+
+
 
     init {
         surfaceHolder = getHolder()
